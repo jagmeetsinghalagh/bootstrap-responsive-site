@@ -1,0 +1,218 @@
+*{
+	font-family: Helvetica;
+	font-size: 17px;
+}
+
+hr{
+	width: 60%;
+	border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #563d7c; /* Modern Browsers */
+    margin-bottom: 50px;
+}
+.carousel{
+	margin-bottom: 20px;
+}
+#carousel-btn-1{
+	color: white;
+	border: 1px solid white ;
+	background: transparent;
+}
+
+#carousel-btn-2{
+	border: 1px solid #563d7c;
+	background-color: #563d7c;
+	color: white;
+}
+
+#carousel-btn-1:hover{
+	border: 1px solid #563d7c;
+	background: transparent;
+	color: white;
+}
+
+#carousel-btn-2:hover{
+	border: 1px solid #563d7c;
+	background: transparent;
+	color: white;
+}
+
+.fa-css3{
+	color: #0084b4;
+}
+
+.fa-bold{
+	color: #563d7c;
+}
+
+.fa-html5{
+	color: #800000;
+}
+
+.fa-facebook-square{
+	color: #3B5998;
+	cursor: pointer;
+}
+
+.fa-instagram{
+	color: #fb3958;
+	cursor: pointer;
+}
+
+.fa-youtube{
+	color: #ff0000;
+	cursor: pointer;
+}
+
+
+.fa-twitter{
+	color: #00aced;
+	cursor: pointer;
+}
+#team-section{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer{
+	color: white;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+	.carousel-item img{
+		height: 50vh;
+		width: 100%;
+	}
+
+	.carousel-caption{
+		position: absolute;
+		top: 20%;
+		text-shadow: 1px 1px #A9A9A9;
+	}
+	.carousel-caption h2{
+		font-size: 40px;
+	}
+	.carousel-caption h3{
+		font-size: 18px;
+	}
+	.card{
+		width: 300px;
+		margin-bottom: 15px;
+		
+	}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+	.carousel-item img{
+		height: 50vh;
+		width: 100%;
+	}
+
+	
+	.carousel-caption{
+		position: absolute;
+		top: 20%;
+		text-shadow: 1px 1px #A9A9A9;
+	}
+	.carousel-caption h2{
+		font-size: 60px;
+	}
+	.carousel-caption h3{
+		font-size: 30px;
+	}
+	#carousel-btn-1{
+		font-size: 17px;
+	}
+	#carousel-btn-1:hover{
+		font-size: 17px;
+	}
+	#carousel-btn-2{
+		font-size: 17px;
+	}
+	#carousel-btn-2:hover{
+		font-size: 17px;
+	}
+	.card{
+		width: 260px;
+		margin-bottom: 30px;
+	}
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
+	.carousel-item img{
+		height: 50vh;
+		width: 100%;
+	}
+	.carousel-caption{
+		position: absolute;
+		top: 20%;
+		text-shadow: 1px 1px #A9A9A9;
+	}
+	.carousel-caption h2{
+		font-size: 65px;
+	}
+	.carousel-caption h3{
+		font-size: 30px;
+	}
+	#carousel-btn-1{
+		font-size: 20px;
+	}
+	#carousel-btn-1:hover{
+		font-size: 20px;
+	}
+	#carousel-btn-2{
+		font-size: 20px;
+	}
+	#carousel-btn-2:hover{
+		font-size: 20px;
+	}
+	.card{
+		width: 210px;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.carousel-item img{
+		height: 90vh;
+		width: 100%;
+	}
+	.carousel-caption{
+		position: absolute;
+		top: 35%;
+		text-shadow: 1px 1px #A9A9A9;
+	}
+	.carousel-caption h2{
+		font-size: 80px;
+	}
+	.carousel-caption h3{
+		font-size: 40px;
+	}
+	#carousel-btn-1{
+		font-size: 20px;
+	}
+	#carousel-btn-1:hover{
+		font-size: 20px;
+	}
+	#carousel-btn-2{
+		font-size: 20px;
+	}
+	#carousel-btn-2:hover{
+		font-size: 20px;
+	}
+	.card{
+		width: 330px;
+	}
+	
+} 
+
